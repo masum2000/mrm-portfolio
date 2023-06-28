@@ -39,8 +39,8 @@ const Footer = () => {
                 </div> */}
                 <div className="bg-gray-800 py-4">
                     <div className="container mx-auto px-4 flex justify-between">
-                        <p className="text-sm text-gray-500">© 2023. All rights reserved.</p>
-                        <p className="text-sm text-gray-500">Developed by Mizanur Rahman Masum</p>
+                        <p className="text-sm text-[#F56539]">© 2023. All rights reserved.</p>
+                        <p className="text-sm text-[#F56539]">Developed by Mizanur Rahman Masum</p>
                     </div>
                 </div>
             </footer>

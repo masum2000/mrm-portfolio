@@ -1,11 +1,20 @@
 import React from 'react';
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 
 const About = () => {
     return (
-        <div  id='about' className='container mx-auto'>
-            <h1 className='text-center text-4xl font-semibold text-[#F56539] mt-16'>About Me</h1>
+        <div id='about' className='container mx-auto'>
+            <p className='text-center text-4xl font-semibold text-[#F56539] mt-16'>
+                <Typewriter
+                    options={{
+                        strings: ['About Me'],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
+            </p>
 
             <div className='text-justify my-6 md:px-0 px-4'>
                 <p>My name is Mizanur Rahman Masum, but I am commonly known as Masum. I recently graduated from Daffodil International University with a Bachelor's degree in Computer Science and Engineering, achieving a commendable CGPA of 3.69. As a dedicated MERN Stack developer, I possess a solid skill set in MongoDB, Express.js, React.js, and Node.js HTML5, CSS3, Tailwind, and JavaScript. I bring a unique perspective to

@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import animationData from '../../lotties/84584-contact-us.json';
+import Typewriter from 'typewriter-effect';
 
 const Contact = () => {
     const defaultOptions = {
@@ -13,7 +14,17 @@ const Contact = () => {
     };
     return (
         <div className='container mx-auto'>
-            <h1 className='text-center text-4xl font-semibold text-[#F56539] my-16'>Contact With Me</h1>
+            
+            <p className='text-center text-4xl font-semibold text-[#F56539] my-16'>
+                <Typewriter
+                    options={{
+                        strings: ['Contact with Me'],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
+            </p>
+
             <div className='grid md:grid-cols-2'>
                 <div>
                     <Lottie
