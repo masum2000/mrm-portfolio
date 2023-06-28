@@ -30,8 +30,17 @@ const Banner = () => {
             />
           </p>
 
-          <div className='mb-6'>
-            <button className="border-2 border-[#F56539] font-semibold mt-4  p-2 rounded-md  text-[#F56539] hover:bg-gray-700 hover:text-white"><a target='_blank' href='https://drive.google.com/file/d/1FpE-s5yqvItYOAInwpOX0qlGcmBXe1Ar/view?usp=drive_link'>Resume</a></button>
+          <div className='mb-6 space-x-3'>
+            <button className="border-2 border-[#F56539] font-semibold mt-4  p-2 rounded-md  text-[#F56539] hover:bg-gray-700 hover:text-white"><a target='_blank' href='https://drive.google.com/file/d/1FpE-s5yqvItYOAInwpOX0qlGcmBXe1Ar/view?usp=drive_link'> View Resume</a></button>
+
+            <a href ="/public/resume_of_masum.pdf" download>
+              <button
+              type="submit"
+              className='border-2 border-[#F56539] font-semibold mt-4  p-2 rounded-md  text-[#F56539] hover:bg-gray-700 hover:text-white'>
+                 Download Resume
+              </button>
+            </a>
+
           </div>
 
           {/* <div className='text-center'>
